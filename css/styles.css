@@ -155,29 +155,6 @@ section h2 {
   min-height: auto;
   padding: 40px 20px;
 }
-#contactForm {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-}
-#contactForm input, #contactForm textarea {
-  padding: 12px;
-  border: 2px solid #1E90FF;
-  border-radius: 6px;
-  font-size: 1rem;
-  outline: none;
-}
-#contactForm button {
-  padding: 12px;
-  background-color: #1E90FF;
-  color: #fff;
-  border-radius: 6px;
-  cursor: pointer;
-}
-#contactForm button:hover { background-color: #005ecb; }
 
 /* Footer */
 footer {
@@ -353,3 +330,4 @@ footer {
   .site-right { order: 3; align-items: center; text-align: center; }
   body { padding-top: 240px; } /* increased for taller stacked header */
 }
+
